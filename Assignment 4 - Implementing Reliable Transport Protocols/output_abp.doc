@@ -1,0 +1,277 @@
+-----  Stop and Wait Network Simulator Version 1.1 -------- 
+
+Enter the number of messages to simulate: Enter  packet loss probability [enter 0.0 for no loss]:Enter packet corruption probability [0.0 for no corruption]:Enter average time between messages from sender's layer5 [ > 0.0]:Enter TRACE:
+EVENT time: 9.356975,  type: 1, fromlayer5  entity: 0
+
+Trying to send 1 no. msg
+Packet sent to layer-3 from A
+
+EVENT time: 14.849422,  type: 2, fromlayer3  entity: 1
+
+B received packet succesfully
+Sending an ACK
+
+EVENT time: 17.348551,  type: 2, fromlayer3  entity: 0
+
+Data transfer successful
+Message received:  1
+
+EVENT time: 160.771515,  type: 1, fromlayer5  entity: 0
+
+Trying to send 2 no. msg
+Packet sent to layer-3 from A
+
+EVENT time: 162.172806,  type: 2, fromlayer3  entity: 1
+
+B received packet succesfully
+Sending an ACK
+
+EVENT time: 167.609497,  type: 2, fromlayer3  entity: 0
+
+Data transfer successful
+Message received:  2
+
+EVENT time: 232.203140,  type: 1, fromlayer5  entity: 0
+
+Trying to send 3 no. msg
+Packet sent to layer-3 from A
+
+EVENT time: 235.699310,  type: 2, fromlayer3  entity: 1
+
+B received packet succesfully
+Sending an ACK
+
+EVENT time: 238.584351,  type: 2, fromlayer3  entity: 0
+
+Data transfer successful
+Message received:  3
+
+EVENT time: 333.280457,  type: 1, fromlayer5  entity: 0
+          TOLAYER3: packet being corrupted
+
+Trying to send 4 no. msg
+Packet sent to layer-3 from A
+
+EVENT time: 337.856903,  type: 2, fromlayer3  entity: 1
+
+B received corrupted packet
+Sending previous ACK
+
+EVENT time: 341.733215,  type: 2, fromlayer3  entity: 0
+
+ACK is corrupt
+
+EVENT time: 347.294617,  type: 2, fromlayer3  entity: 1
+          TOLAYER3: packet being lost
+
+B received packet succesfully
+Sending an ACK
+
+EVENT time: 505.789398,  type: 1, fromlayer5  entity: 0
+
+Can not send packet
+Waiting for ACK of previous packet
+
+EVENT time: 591.733215,  type: 0, timerinterrupt   entity: 0
+
+A timeout occurred
+Resending packet
+
+EVENT time: 601.068237,  type: 2, fromlayer3  entity: 1
+          TOLAYER3: packet being corrupted
+
+B received corrupted packet
+Sending previous ACK
+
+EVENT time: 607.815063,  type: 2, fromlayer3  entity: 0
+
+ACK is corrupt
+          TOLAYER3: packet being corrupted
+
+EVENT time: 611.193420,  type: 2, fromlayer3  entity: 1
+
+B received corrupted packet
+Sending previous ACK
+
+EVENT time: 612.720764,  type: 2, fromlayer3  entity: 0
+
+Data transfer successful
+Message received:  4
+
+EVENT time: 618.781128,  type: 1, fromlayer5  entity: 0
+
+Trying to send 5 no. msg
+Packet sent to layer-3 from A
+
+EVENT time: 628.382324,  type: 2, fromlayer3  entity: 1
+
+B received packet succesfully
+Sending an ACK
+
+EVENT time: 629.652588,  type: 2, fromlayer3  entity: 0
+
+Data transfer successful
+Message received:  5
+
+EVENT time: 777.770325,  type: 1, fromlayer5  entity: 0
+
+Trying to send 6 no. msg
+Packet sent to layer-3 from A
+
+EVENT time: 785.795471,  type: 2, fromlayer3  entity: 1
+          TOLAYER3: packet being corrupted
+
+B received packet succesfully
+Sending an ACK
+
+EVENT time: 790.534241,  type: 2, fromlayer3  entity: 0
+
+ACK is corrupt
+
+EVENT time: 792.338989,  type: 2, fromlayer3  entity: 1
+
+B received corrupted packet
+Sending previous ACK
+
+EVENT time: 798.034668,  type: 2, fromlayer3  entity: 0
+
+Data transfer successful
+Message received:  6
+
+EVENT time: 866.817261,  type: 1, fromlayer5  entity: 0
+
+Trying to send 7 no. msg
+Packet sent to layer-3 from A
+
+EVENT time: 869.683350,  type: 2, fromlayer3  entity: 1
+
+B received packet succesfully
+Sending an ACK
+
+EVENT time: 877.544250,  type: 2, fromlayer3  entity: 0
+
+Data transfer successful
+Message received:  7
+
+EVENT time: 1036.683228,  type: 1, fromlayer5  entity: 0
+          TOLAYER3: packet being corrupted
+
+Trying to send 8 no. msg
+Packet sent to layer-3 from A
+
+EVENT time: 1038.758301,  type: 2, fromlayer3  entity: 1
+          TOLAYER3: packet being lost
+
+B received corrupted packet
+Sending previous ACK
+
+EVENT time: 1059.712524,  type: 1, fromlayer5  entity: 0
+
+Can not send packet
+Waiting for ACK of previous packet
+
+EVENT time: 1170.970825,  type: 1, fromlayer5  entity: 0
+
+Can not send packet
+Waiting for ACK of previous packet
+
+EVENT time: 1286.683228,  type: 0, timerinterrupt   entity: 0
+
+A timeout occurred
+Resending packet
+          TOLAYER3: packet being corrupted
+
+EVENT time: 1289.986816,  type: 2, fromlayer3  entity: 1
+
+B received corrupted packet
+Sending previous ACK
+
+EVENT time: 1291.530396,  type: 2, fromlayer3  entity: 0
+
+ACK is corrupt
+
+EVENT time: 1295.319580,  type: 2, fromlayer3  entity: 1
+
+B received packet succesfully
+Sending an ACK
+
+EVENT time: 1300.519775,  type: 2, fromlayer3  entity: 0
+
+Data transfer successful
+Message received:  8
+
+EVENT time: 1325.254150,  type: 1, fromlayer5  entity: 0
+
+Trying to send 9 no. msg
+Packet sent to layer-3 from A
+
+EVENT time: 1327.119019,  type: 2, fromlayer3  entity: 1
+
+B received packet succesfully
+Sending an ACK
+
+EVENT time: 1335.326050,  type: 2, fromlayer3  entity: 0
+
+Data transfer successful
+Message received:  9
+
+EVENT time: 1359.007568,  type: 1, fromlayer5  entity: 0
+
+Trying to send 10 no. msg
+Packet sent to layer-3 from A
+
+EVENT time: 1363.531860,  type: 2, fromlayer3  entity: 1
+
+B received packet succesfully
+Sending an ACK
+
+EVENT time: 1367.071655,  type: 2, fromlayer3  entity: 0
+
+Data transfer successful
+Message received:  10
+
+EVENT time: 1402.752808,  type: 1, fromlayer5  entity: 0
+
+Trying to send 11 no. msg
+Packet sent to layer-3 from A
+
+EVENT time: 1408.491943,  type: 2, fromlayer3  entity: 1
+          TOLAYER3: packet being corrupted
+
+B received packet succesfully
+Sending an ACK
+
+EVENT time: 1414.860840,  type: 2, fromlayer3  entity: 0
+
+ACK is corrupt
+
+EVENT time: 1417.468872,  type: 1, fromlayer5  entity: 0
+
+Can not send packet
+Waiting for ACK of previous packet
+
+EVENT time: 1420.297852,  type: 2, fromlayer3  entity: 1
+          TOLAYER3: packet being corrupted
+
+B received corrupted packet
+Sending previous ACK
+
+EVENT time: 1421.324463,  type: 2, fromlayer3  entity: 0
+
+ACK is corrupt
+          TOLAYER3: packet being corrupted
+
+EVENT time: 1429.831421,  type: 2, fromlayer3  entity: 1
+
+B received corrupted packet
+Sending previous ACK
+
+EVENT time: 1431.174438,  type: 2, fromlayer3  entity: 0
+
+Data transfer successful
+Message received:  11
+ Simulator terminated at time 1431.174438
+ after sending 15 msgs from layer5
+Total sent message count 11
+Corrupted Message count (from A to B) 8
+Coorupted ACK count (from B to A) 6

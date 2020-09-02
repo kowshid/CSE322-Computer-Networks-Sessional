@@ -1,0 +1,7 @@
+-----  Stop and Wait Network Simulator Version 1.1 -------- 
+
+Enter the number of messages to simulate: Enter  packet loss probability [enter 0.0 for no loss]:Enter packet corruption probability [0.0 for no corruption]:Enter average time between messages from sender's layer5 [ > 0.0]:Enter TRACE: Simulator terminated at time 0.000000
+ after sending 0 msgs from layer5
+Total sent message count 0
+Corrupted Message count (from A to B) 0
+Coorupted ACK count (from B to A) 0
